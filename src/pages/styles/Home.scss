@@ -1,0 +1,22 @@
+@import '../../App.scss';
+main {
+	width: 100%;
+	min-height: 100vh;
+	background-color: white;
+}
+
+.carousel__section {
+	width: 100%;
+	z-index: 1;
+}
+
+.gallery__section {
+	padding: 100px 0 0 0;
+	h3 {
+		@include flex(center, center, row);
+		font-family: 'autography';
+		font-size: 5em;
+		font-weight: 100;
+		text-align: center;
+	}
+}

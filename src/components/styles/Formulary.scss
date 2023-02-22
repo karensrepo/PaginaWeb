@@ -1,0 +1,21 @@
+@import '../../App.scss';
+
+.GoogleForm{
+    @include flex(center, center, row);
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: 'autography';
+    font-size: 30px;
+    
+
+    .Link{
+        @include flex(center, center, row);
+        height: 55px;
+        width: 250px;
+        text-decoration: none;
+        background-color: $yellow;
+        border-radius: 5%;
+
+    }
+    
+}

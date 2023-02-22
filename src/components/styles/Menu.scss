@@ -1,0 +1,50 @@
+@import '../../App.scss';
+
+.containerM {
+	// background-color: red;
+	font-family: 'autography';
+	font-size: 5em;
+	font-weight: 100;
+	text-align: center;
+	min-height: 8em;
+	position: relative;
+
+	.imagenes {
+		@include flex(center, center, row);
+		position: relative;
+		background: url('../../images/Menu/BG.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+
+		a {
+			@include flex(center, center, column);
+			position: relative;
+			margin: 80px;
+			border-radius: 2%;
+
+			img {
+				width: 5em;
+				transition: opacity 0.7s ease-in-out;
+				border-radius: 8%;
+				@include media('<=tablet') {
+					width: 300px;
+				}
+			}
+
+			.segundaI {
+				position: absolute;
+			}
+
+			&:hover .segundaI {
+				opacity: 0;
+			}
+		}
+	}
+
+	@include media('<=desktop') {
+		.imagenes {
+			background-image: none;
+			@include flex(center, center, column);
+		}
+	}
+}

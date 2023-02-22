@@ -1,0 +1,28 @@
+@import '../../App.scss';
+
+main {
+	width: 100%;
+	min-height: 100vh;
+	background-color: white;
+}
+
+.map__section{
+    padding-top: 350px;
+	padding-bottom: 100px;
+
+	@include media('<=tablet'){
+		padding-top: 80px;
+		padding-bottom: 0px;
+	}
+
+	h3{	
+        @include media('<=tablet') {
+            margin-bottom: 2em;
+        }
+		@include flex(center, center, row);	
+		font-family: "autography";
+		font-size: 5em;
+		font-weight: 100;
+		text-align: center;
+	}
+}
