@@ -51,8 +51,8 @@ const Header = () => {
                 <ul className={ isMenuOpen && "active" }>
                     <li> <Link className={ activeWindow === "/" ? "active" : "null"} to="/" onClick={isMenuOpen && toggleMenu}>INICIO</Link> <span>‧</span></li>
                     <li><Link className={ activeWindow === "/somos-natural" ? "active" : "null"} to="/somos-natural" onClick={isMenuOpen && toggleMenu}>SOMOS NATURAL</Link> <span>‧</span></li>
-                    <li><Link className={ activeWindow === "/ubicacion" ? "active" : "null"} to="/ubicacion" onClick={isMenuOpen && toggleMenu}>¿DÓNDE ESTAMOS?</Link> <span>‧</span></li>
-                    <li><Link className={ activeWindow === "/contacto" ? "active" : "null"} to="/contacto" onClick={isMenuOpen && toggleMenu}>HAZ TU PEDIDO</Link></li>
+                    <li><Link className={ activeWindow === "/contacto" ? "active" : "null"} to="/contacto" onClick={isMenuOpen && toggleMenu}>¿DÓNDE ESTAMOS?</Link> <span>‧</span></li>
+                    <li><a href="https://www.karenspedidos.com" target='_blank'>HAZ TU PEDIDO</a></li>
                 </ul>
                 <div className="mobile__nav menu__active">
                     <img src={Logo} alt="Karen's pizza logo" />
