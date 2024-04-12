@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <main>
             <section className="contact__section">
-                <h3>Haz tu pedido</h3>
+                <h3>¿DÓNDE ESTAMOS?</h3>
                 <h4>Elige una ciudad</h4>
                 <ButtonGroup title="CALI" sedes={caliImages} />
                 <ButtonGroup title="BOGOTÁ" sedes={bogotaImages} />

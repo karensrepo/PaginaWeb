@@ -32,8 +32,8 @@ const Footer = () => {
                         <ul>
                         <li><Link className={ activeWindow === "/" ? "active" : "null"} to="/">INICIO</Link></li>
                         <li><Link className={ activeWindow === "/somos-natural" ? "active" : "null"} to="/somos-natural">SOMOS NATURAL</Link></li>
-                        <li><Link className={ activeWindow === "/ubicacion" ? "active" : "null"} to="/ubicacion">¿DÓNDE ESTAMOS?</Link></li>
-                        <li><Link className={ activeWindow === "/contacto" ? "active" : "null"} to="/contacto">HAZ TU PEDIDO</Link></li>
+                        <li><Link className={ activeWindow === "/contacto" ? "active" : "null"} to="/contacto">¿DÓNDE ESTAMOS?</Link></li>
+                        <li><a href="https://www.karenspedidos.com" target='_blank'>HAZ TU PEDIDO</a></li>
                         </ul>
                     
                     </div>
