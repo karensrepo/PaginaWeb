@@ -7,7 +7,7 @@ const Pedidos = () => {
     return(
         <div className="containerP">
                 <a className="pedidosButton" href={"https://www.karenspedidos.com"} target="_blank" rel="noreferrer">
-                    Has tu pedido
+                    Haz tu pedido
                 </a>
 
         </div>
