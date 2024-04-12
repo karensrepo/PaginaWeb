@@ -24,9 +24,6 @@ const Menu = () => {
                     <img className="segundaI" style={{objectPosition: "center"}} src={Menu1Eng} alt="Menu1 seleccionado"/>
                 </a>
             </div>
-
-        
-        
         </div>
     )
 }
