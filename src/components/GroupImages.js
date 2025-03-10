@@ -32,11 +32,6 @@ const caliImages = [
 		link: 'https://wa.link/ectbt9',
 	},
 	{
-		name: 'Granada',
-		img: Img5,
-		link: 'https://wa.link/09hjk9',
-	},
-	{
 		name: 'La Flora',
 		img: Img6,
 		link: 'https://wa.link/7dy7ol',
